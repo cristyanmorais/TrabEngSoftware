@@ -1,30 +1,66 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
 body{
-    min-height: 200vh;
+    min-height: 100vh;
     min-width: 100vh;
-    background: linear-gradient(45deg,#222222 0%, #1c1c1c 30%, #242424 66%, #505050 100%);
+    background: linear-gradient(109.6deg, rgb(72, 200, 160) 11.2%, rgb(32, 40, 48) 91.3%);
+ 
 }
-.titulo{
-    color: #c7c7c7;
-    text-shadow: black 0.2em 0.3em 0.2em;
+h3{
+    text-align: center;
 }
 header{
-    background: linear-gradient(45deg,#222222 0%, #1c1c1c 30%, #242424 66%, #505050 100%);
+    border-bottom: 0.4px solid aliceblue;
     padding: 15px;
     text-align: center;
     font-size: large;
 }
-box-paginas{
-  
-    display: inline-block;
-    margin: 1% 1%;
-    padding: 30px;
-  
+.titulo{
+    font-size: 40px;
+    color: #000000;
+    text-shadow: #9FACE6 0.1rem 0.2rem 0.2rem;
 }
+.textos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.intro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
 
+}
+.card{
     
+    align-self: stretch;
+    width: 25%;
+    display: inline-block;
+    justify-content: center;
+    align-items: baseline;
+    margin: 5px;
+    padding: 1% 1%;
+    width: 250px;
+    height: 620px;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    border-radius: 30px;
+    transition: all .3s;
+}
+.card2{
+    position: relative;
+    width: 250px;
+    height: 620px;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    border-radius: 30px;
+    transition: all .2s;
+}
+   
+.card2:hover {
+    transform: scale(1.1);
+    border-radius: 50px;
+}
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    padding: 50px 50px;
+}
